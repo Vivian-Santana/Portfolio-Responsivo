@@ -10,12 +10,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <script
+    src="https://kit.fontawesome.com/8c5ae72dda.js"
+    crossorigin="anonymous"
+    ></script>
+    <title>Vivian</title>
   </head>
 
   <nav class="navbar" style="background-color: #000000;">
     <div class="container-md">
-      <a class="navbar-brand" href="#">Home</a>
+      <a class="navbar-brand" href="#menu" id="menu">Home</a>
       <a class="nav-link" href="#sobre" id="hover">Sobre mim</a>
       <a class="nav-link" href="#formacao" id="hover">Formação</a>
       <a class="nav-link" href="#certificados" id="hover">certificados</a>
@@ -25,7 +33,135 @@
     </div>
   </nav>
 
-  <body></body>
+  <body>
+
+    <header class="container-cabecalho">
+      <div>
+        <h1>Vivian Santana</h1>
+        <h5>Web developer</h5>
+      </div>
+    </header>
+
+    <main>
+          <!--card-->
+      <div class="card mb-5 mx-auto" style="max-width: 540px;" id="card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/img/foto-Preto_e_Branco.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--card-->
+
+      <section class="container-fluid mb-5" id="sobre">
+        <div class="d-flex flex-column align-items-center">
+
+          <h2>Sobre  mim</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores consequuntur ad dolorum, cum tempore eligendi unde obcaecati facere aliquid dolore? Odio accusantium sequi quasi harum amet illo facere mollitia aliquam.</p>
+
+        </div>
+
+        <!--link para voltar para o menu-->
+        <div class="voltar">
+          <i class="fa-solid fa-sort-up"></i>
+          <a href="#menu" id="hover">Voltar para cima</a>
+        </div>
+      </section>
+
+      <!--Formação-->
+      <section class="container-fluid mb-5" id="formacao">
+        <div class="d-flex flex-column align-items-center">
+
+          <h2>Formação</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repudiandae saepe quam.</p>
+
+          <div class="d-flex flex-column align-items-center">
+            <div class="container-flex d-flex align-items-center">
+              <div class="idiomas" id="idiomas" >
+                <h3>Idiomas:</h3>
+              </div>
+              <ul>
+                <li>Inglês intermediário</li>
+                <li>Espanhol básico</li>
+              </ul>
+            </div>
+          </div>
+     
+        </div>
+
+        <!--link para voltar para o menu-->
+        <div class="voltar">
+          <i class="fa-solid fa-sort-up"></i>
+          <a href="#menu" id="hover">Voltar para cima</a>
+        </div>
+      </section>
+
+      <!--Hard Skills-->
+      <section class="container-fluid mb-5" id="hardSkills">
+        <div class="d-flex flex-column align-items-center">
+
+          <h2>Hard Skills</h2>
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col order-8">
+                <i id="icons" class="fa-brands fa-java fa-4x" title="Java"></i>
+              </div>
+              <div class="col order-7">
+                <i id="icons" class="fa-brands fa-square-js fa-4x" title="javaScript"></i>
+              </div>
+              <div class="col order-6">
+                <i id="icons" class="fa-brands fa-python fa-4x" title="Python"></i>
+              </div>
+
+              <div class="col order-1">
+                <i id="icons"class="fa-solid fa-database fa-4x" title="Sql"></i>
+              </div>
+
+              <div class="col order-4">
+                <i id="icons" class="fa-brands fa-html5 fa-4x" title="HTML"></i>
+              </div>
+
+              <div class="col order-3">
+                <i id="icons" class="fa-brands fa-css3-alt fa-4x" title="CSS"></i>
+              </div>
+
+              <div class="col order-2">
+                <i id="icons" class="fa-brands fa-github fa-4x" title="Git/GitHub"></i>
+              </div>
+
+              <div class="col order-5">
+                <i id="icons" class="fa-brands fa-figma fa-4x" title="figma"></i>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+        
+
+
+
+
+
+        <!--link para voltar para o menu-->
+        <div class="voltar">
+          <i class="fa-solid fa-sort-up"></i>
+          <a href="#menu" id="hover">Voltar para cima</a>
+        </div>
+      </section>
+
+
+    </main>
+
+  </body>
 
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
