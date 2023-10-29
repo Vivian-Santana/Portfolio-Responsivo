@@ -1,0 +1,12 @@
+body{
+    background-image: url(/img/fundo-cosmico-com-luzes-laser-de-neon-coloridas-perfeito-para-um-papel-de-parede-digital_181624-23743.webp);
+    background-size: cover;/*faz a imagem cobrir o fundo todo*/
+    background-repeat: no-repeat;/*sem repetir a imagem*/
+    background-attachment: fixed; /*fixa a imagem de fundo*/
+    background-position: center;
+}
+
+
+.container-md a{
+    color: aliceblue;
+}
