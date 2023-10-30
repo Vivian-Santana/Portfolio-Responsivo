@@ -39,7 +39,7 @@ header h1 {
     justify-content:center;
     font-size: 40px;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 header h5 {
@@ -70,11 +70,11 @@ section.container-fluid{
     margin-bottom: 2cm;
 }
 
-section p {
+section p{
     font-size:medium;
     padding-bottom: 20px;
     padding-top: 10px;
-    margin: 45px;
+    margin: 35px;
 }
 
 /*link de navegação (voltar)*/
@@ -104,6 +104,12 @@ section p {
     padding-right: 20px;
 }
 
+.row i:hover{
+    cursor: pointer;
+    transition: color 0.3s;
+    color: rgb(88, 21, 150);
+}
+
 .container-flex ul {
     list-style: none; /* Remove marcadores de lista */
 }
@@ -126,9 +132,12 @@ section p {
 #certificados a{
     text-decoration: none;
     color: antiquewhite;
-    margin: 5px;
+    margin: 10px;
 }
 
+#certificados h3{
+    padding-bottom: 30px;
+}
 /*footer*/
 footer{
     background-color: black;
