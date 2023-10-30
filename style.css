@@ -88,6 +88,10 @@ section p{
     transition: color 0.3s;
     color: rgb(88, 21, 150);
 }
+
+.voltar{
+    padding-top: 15px;
+}
 /*hover dos links gerais*/
 #hover:hover{
     text-decoration: underline;
