@@ -13,7 +13,17 @@ body{
 
 /*menu*/
 .container-md a{
-    color: aliceblue;
+    color: antiquewhite;
+}
+.navbar{
+    background-color: #000000;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.navbar a{
+    font-size: larger;
+    margin: 5px;
 }
 
 /*header*/
@@ -39,12 +49,16 @@ header h5 {
 }
 
 /*card*/
-#card{
+.card{
     text-align:justify;
     background-color: rgb(13, 6, 18);
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 74px;
+}
+
+.card img{
+    border-radius: 10px;
 }
 
 /*seções*/
@@ -54,11 +68,6 @@ section.container-fluid{
     padding: 30px;
     margin: 0;
     margin-bottom: 2cm;
-}
-
-section h2{
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 section p {
@@ -71,7 +80,7 @@ section p {
 /*link de navegação (voltar)*/
 .voltar a{
     text-decoration: none;
-    color: aliceblue;
+    color: antiquewhite;
     padding-left: 3px;
     width: 30px;
 }
@@ -111,4 +120,37 @@ section p {
 
 .row i{
     margin: 10px;
+}
+
+/*Certificados*/
+#certificados a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 5px;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    padding: 37px;
+}
+
+footer li{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+
+.social-network a{
+    color: antiquewhite;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.social-network a:hover{
+    transition: color 0.3s;
+    color: rgb(88, 21, 150);
+}
+.nome{
+    padding-left: 16px;
 }
