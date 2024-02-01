@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(/img/fundo-cosmico-com-luzes-laser-de-neon-coloridas-perfeito-para-um-papel-de-parede-digital_181624-23743.webp);
+    background-image: url(/img/img.freepik.jpg);
     background-size: cover;/*faz a imagem cobrir o fundo todo*/
     background-repeat: no-repeat;/*sem repetir a imagem*/
     background-attachment: fixed; /*fixa a imagem de fundo*/
@@ -16,7 +16,7 @@ body{
     color: antiquewhite;
 }
 .navbar{
-    background-color: #000000;
+    background-color: rgb(1, 4, 21);
     padding: 25px;
     margin-bottom: 50px;
 }
@@ -51,7 +51,7 @@ header h5 {
 /*card*/
 .card{
     text-align:justify;
-    background-color: rgb(13, 6, 18);
+    background-color: rgb(1, 7, 46);
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 74px;
@@ -63,10 +63,10 @@ header h5 {
 
 /*seções*/
 section.container-fluid{
-    background-color: rgb(13, 6, 18);
+    background-color: rgb(1, 7, 46);
     text-align:justify;
     padding: 30px;
-    margin: 0;
+    margin-top: 90px;
     margin-bottom: 2cm;
 }
 
@@ -86,7 +86,7 @@ section p{
 }
 .voltar i:hover {
     transition: color 0.3s;
-    color: rgb(88, 21, 150);
+    color: rgb(20, 36, 134);
 }
 
 .voltar{
@@ -96,7 +96,7 @@ section p{
 #hover:hover{
     text-decoration: underline;
     transition: color 0.3s;
-    color: rgb(88, 21, 150);
+    color: rgb(20, 36, 134);
 }
 
 /*formação*/
@@ -111,7 +111,7 @@ section p{
 .row i:hover{
     cursor: pointer;
     transition: color 0.3s;
-    color: rgb(88, 21, 150);
+    color: rgb(20, 36, 134);
 }
 
 .container-flex ul {
@@ -144,8 +144,8 @@ section p{
 }
 /*footer*/
 footer{
-    background-color: black;
-    padding: 37px;
+    background-color: rgb(1, 4, 21);
+    padding: 20px;
 }
 
 footer li{
@@ -162,7 +162,7 @@ footer li{
 
 .social-network a:hover{
     transition: color 0.3s;
-    color: rgb(88, 21, 150);
+    color: rgb(20, 36, 134);
 }
 .nome{
     padding-left: 16px;
