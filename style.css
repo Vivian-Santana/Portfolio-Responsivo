@@ -142,6 +142,18 @@ section p{
 #certificados h3{
     padding-bottom: 30px;
 }
+
+/*Protótipos*/
+#prototipos a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 10px;
+}
+
+#prototipos h3{
+    padding-bottom: 30px;
+}
+
 /*footer*/
 footer{
     background-color: rgb(1, 4, 21);
